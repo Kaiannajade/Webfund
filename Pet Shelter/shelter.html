@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="flexbox-container">
+        <div class="item1">
+            <img src="./assets 2/heart-light.png" alt="heart">
+            <h1 class="nav-title"> Pet Shelter </h1>
+        </div>
+
+        <div class="item2">
+            <ul class="nav-links">
+                <li><a href="#">Find a Pet</a></li>
+                <li><a href="#">About</a></li>
+                <li><button class="btn">Donate</button></li>
+            </ul>
+        </div>
+
+        <div class="item3">
+            <p>I'm looking for a...</p>
+            <img src="./assets 2/paw-light.png" alt="paw">
+            <select name="Any Pet" onChange="convert(this)">
+                <option>Any Pet</option>
+                <option>Cat</option>
+                <option>Dog</option>
+            </select>
+
+        </div>
+
+        <div class="item4">
+            <p>In or near...</p>
+            <img src="./assets 2/pin-light.png" alt="pin">
+            <input type="text" name="City or Zip Code" class="City or Zip Code">
+            <br>
+            <button class="btn" onClick="Find(this)">Find your new best friend</button>
+        </div>
+
+        <div id="flexbox-container2">
+            <div class="item5">
+                <img src="./assets 2/pepper.jpg" alt="pepper">
+                <h1>Pepper</h1>
+                <p>Pepper is a slightly shy sweet gray Tabby, but she really loves showing her human affection.</p>
+                <span id="post1">0 petting(s)</span>
+                <br>
+                <button class="like-btn" onClick="like1()">Pet Pepper</button>
+
+            </div>
+            <div class="item6">
+                <img src="./assets 2/bruce.jpg" alt="bruce">
+                <h1>Bruce</h1>
+                <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                <br>
+                <span id="post2">0 petting(s)</span>
+                <button class="like-btn" onClick="like1()">Pet Bruce</button>
+            </div>
+
+            <div class="item7">
+                <img src="./assets 2/oscar.jpg" alt="oscar">
+                <h1>Oscar</h1>
+                <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+                <br>
+                <span id="post3">0 petting(s)</span>
+                <button class="like-btn" onClick="like1()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

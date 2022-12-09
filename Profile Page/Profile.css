@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: whitesmoke;
+}
+.top{
+    background-color: white;
+}
+.nav {
+    background-color:gray;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 1450px;
+
+
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.nav-title {
+    margin-left: 20px;
+
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: aqua;
+    color: white;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.row {
+    width: 60%;
+    
+    
+}
+.col {
+    width: 50%;
+    margin: 10px;
+    padding: 20px;
+    /* flex: 1; */
+    
+}
+.col-2 {
+    /* flex: 2; */
+    
+}
+
+.flex-container {
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-card, .card {
+    width:80%;
+    background-color: white;
+    border: 2px solid lightgray;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2 rem;
+    overflow: hidden;
+
+    
+
+}
+.card-header {
+    background-color: cyan;
+    height: 120px;
+    margin-bottom: 70px;
+
+
+}
+.card-body {
+    padding: 20px;
+    height: 185px;
+}
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p{
+    margin: 20px 0px;
+    
+}
+
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: white;
+    height: 160px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+
+}
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: steelblue;
+}
+
+.header {
+    background-color: gray;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+
+}
+.avatar-s {
+    border-radius: 50%;
+    height: 46px;
+    margin-right: 10px;
+
+
+}
+.user-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin: 20px;
+
+
+}
+.start, .end {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    
+
+}
+.dates {
+    font-size: 20px;
+    color: gray;
+}
+.footer {
+    padding: 20px;
+    border-top: 2x solid#999;
+
+}
+
+.connections {
+    background-color: #ccc;
+    color:#333;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+    font-size: 20px;
+
+    
+
+
+
+}

@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'roboto', sans-serif;
+    background-color: whitesmoke;
+
+}
+.container {
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+   
+.nav-bar{
+        background-color: lightgray;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+
+    
+
+}
+.search {
+    width: 170px;
+    height: 30px
+}
+.btn-login {
+    height: 45px;
+    background-color: rgb(89, 89, 215);
+    width: 75px;
+    box-shadow: 22px solid black;
+    font-size: 15px;
+}
+
+ .box-definition1 {
+    display: flex;
+    height: 270px;
+    border: 2px solid black;
+    width: 500px;
+    margin: 27px;
+    
+
+}
+
+.text1 {
+    width: 140px;
+    margin: 5px;
+    height: 30px;
+    ;
+
+
+}
+
+.btn-like {
+    width: 70px;
+    height: 30px;
+    background-color: yellow;
+    box-shadow: 10px  10px solid black;
+
+}
+.definition-text {
+    width: 140px;
+    margin: 5px;
+    height:30px;
+}
+.ninjatext{
+    width: 140px;
+    margin: 5px;
+    height: 30px;
+    
+}
+
+.text2 {
+    border: 2px solid black;
+    width: 500px;
+    margin: 20px;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    }
+
+.flex-1 {
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: white;
+
+}
+
+
+
+.btn-add {
+    height: 40px;
+    width: 150px;
+    background-color: green;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;
+    font-size: 20px;
+    
+    
+}

@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top {
+    width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    
+}
+
+.nav {
+    background-color: lightskyblue;
+    color: white;
+    height: 55px;
+    padding: 10px 10px;
+}
+
+
+.links  {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+ }
+ a {
+   text-decoration: none;
+   color: white;
+ }
+
+ .container {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    
+    
+
+ }
+
+ .subtitle-line {
+    height: 50px;
+    width: 950px;
+    padding:  10px 10px;
+    border-bottom: 2px solid black;
+ 
+}
+
+#days{ 
+   margin: 0 auto;
+   width: 845px;
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+
+}
+form {
+   float: right;
+}
+   /*--
+label {
+   float:right;
+}
+select {
+   float: right;
+
+}--*/
+
+ .forecast {
+    display: inline-block;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 350px;
+    width: 120px;
+    background-color: lightgray;
+    text-align: center;
+   
+      
+ }
+
+  img {
+   border-radius: 50%;
+   width: 130px;
+   align-items: center;
+   
+ }
+ .temperatures {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    float: bottom;
+    
+ }
+ .high, .low {
+    font-size: 1.5rem;
+    font-weight: 900;
+    justify-content: space-between;
+
+
+ }
+ .high::after, .low::after {
+    content: degree;
+
+ }
+ .high {
+    color: red;
+
+ }
+ .low {
+    color:blue;
+
+ }
+ .footer {
+    width:100px;
+    position: absolute;
+
+
+ }
+ .cookie-policy {
+    display: flex;
+    width: 950px;
+    height: 100px;
+    float: 30px right;
+    position: fixed;
+    background-color: lightgrey;
+    border: 2px solid black;
+
+ }
+ button {
+   box-shadow: 4px 4px black;
+   background-color: lightskyblue;
+   width: 85px;
+   height: 45px;
+   float: inherit;
+ }

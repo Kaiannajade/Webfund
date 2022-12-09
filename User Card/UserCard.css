@@ -1,0 +1,52 @@
+
+.flex-container {
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-card {
+    width:100%;
+    background-color: white;
+    border: 2px solid lightgrey;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2 rem;
+    overflow: hidden;
+
+}
+.card-header {
+    background-color: cyan;
+    height: 120px;
+    margin-bottom: 70px;
+
+
+}
+.card-body {
+    padding: 20px;
+}
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p{
+    margin: 20px 0px;
+}
+
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: white;
+    height: 160px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.icon-s {
+    height: 20px;
+}
+a {
+    color: steelblue;
+}
